@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="uName">Username</string>
+    <string name="pwd">Password</string>
+    <string name="signUp">SIGNUP</string>
+    <string name="signUpBtn">SIGN UP</string>
+    <string name="fisrtName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="Id">ID</string>
+    <string name="login">LOGIN</string>
+    <string name="show_dialog">Show Dialog</string>
+
+
+    <string-array name="SmartPhoneBrands">
+        <item>Samsung</item>
+        <item>Iphone</item>
+        <item>OnePlus</item>
+        <item>Nokia</item>
+        <item>BLACKBERRY</item>
+        <item>Lenovo</item>
+        <item>XIAOMI</item>
+        <item>ESCOTEL</item>
+        <item>MOTOROLA</item>
+        <item>POCCO</item>
+    </string-array>
+
+    <string-array name="SmartPhoneModels">
+        <item>Model 1</item>
+        <item>Model 2</item>
+        <item>Model 3</item>
+        <item>Model 4</item>
+        <item>Model 5</item>
+        <item>Model 6</item>
+        <item>Model 7</item>
+        <item>Model 8</item>
+        <item>Model 9</item>
+        <item>Model 10</item>
+    </string-array>
+
+    <string-array name="SmartPhoneVariant">
+        <item>V 1</item>
+        <item>V 2</item>
+        <item>V 3</item>
+        <item>V 4</item>
+        <item>V 5</item>
+        <item>V 7</item>
+        <item>V 8</item>
+        <item>V 9</item>
+        <item>V 10</item>
+    </string-array>
+</resources>
