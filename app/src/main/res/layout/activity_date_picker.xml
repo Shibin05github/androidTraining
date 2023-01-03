@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:layout_gravity="center"
     android:id="@+id/relativeLayout"
     tools:context=".DatePicker_Activity">
 
@@ -13,6 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Date"
+        android:layout_centerHorizontal="true"
         android:textSize="20sp" />
 
     <TextView
@@ -21,12 +23,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDatePicker"
         android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
         android:text="Select Time"
         android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSHowProDialg"
         android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTimePicker"
         android:layout_marginTop="20dp"
@@ -40,7 +44,45 @@
         android:id="@+id/btnShowSnak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/btnSHowProDialg"
         android:text="Show Snackbar"
         android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShowSnak"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter city name"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btnCallAPI"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etText"
+        android:text="Fetch"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvResult"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_below="@+id/btnCallAPI"
+        />
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCallAPI"/>
 </RelativeLayout>
